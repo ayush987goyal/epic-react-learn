@@ -2,28 +2,28 @@
 // http://localhost:3000/isolated/exercise/07.js
 
 import React from 'react'
-// 🐨 you're going to need the reportProfile function
-// 💰 here, let me help you with that...
-// import reportProfile from '../report-profile'
+import {unstable_trace as trace} from 'scheduler/tracing'
+import reportProfile from '../report-profile'
 
 function Counter() {
   const [count, setCount] = React.useState(0)
-  const increment = () => setCount(c => c + 1)
+  const increment = () => {
+    trace('count incremented', performance.now(), () => {
+      setCount(c => c + 1)
+    })
+  }
   return <button onClick={increment}>{count}</button>
 }
 
 function App() {
   return (
     <div>
-      {/*
-      🐨 Wrap this div in a React.Profile component
-      give it the ID of "counter" and pass reportProfile
-      to the onRender prop.
-      */}
-      <div>
-        Profiled counter
-        <Counter />
-      </div>
+      <React.Profiler id="counter" onRender={reportProfile}>
+        <div>
+          Profiled counter
+          <Counter />
+        </div>
+      </React.Profiler>
       <div>
         Unprofiled counter
         <Counter />
