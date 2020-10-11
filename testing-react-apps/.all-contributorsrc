@@ -1,0 +1,92 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributorsPerLine": 7,
+  "projectName": "testing-react-apps",
+  "projectOwner": "kentcdodds",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "kentcdodds",
+      "name": "Kent C. Dodds",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1500684?v=3",
+      "profile": "https://kentcdodds.com",
+      "contributions": [
+        "code",
+        "doc",
+        "infra",
+        "test"
+      ]
+    },
+    {
+      "login": "gautam-pahuja",
+      "name": "Gautam Pahuja",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/32642691?v=4",
+      "profile": "https://relayr.io/",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "pom421",
+      "name": "pom421",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3749428?v=4",
+      "profile": "https://github.com/pom421",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "marcosvega91",
+      "name": "Marco Moretti",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5365582?v=4",
+      "profile": "https://github.com/marcosvega91",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "PritamSangani",
+      "name": "Pritam Sangani",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22857896?v=4",
+      "profile": "https://www.linkedin.com/in/pritamsangani/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "emzoumpo",
+      "name": "Emmanouil Zoumpoulakis",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2103443?v=4",
+      "profile": "https://github.com/emzoumpo",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Aprillion",
+      "name": "Peter Hozák",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1087670?v=4",
+      "profile": "http://peter.hozak.info/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "milamer",
+      "name": "Christian Schurr",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12884134?v=4",
+      "profile": "https://github.com/milamer",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "commitConvention": "none"
+}
